@@ -22,7 +22,10 @@ int number = InputInt("Введите число ");
 
 if (ValidateRank(number))
 {
-    while (number > 1000) number = number / 10;
+    while (number > 1000)
+    {
+        number = number / 10;
+    }
     int result = number % 10;
     System.Console.WriteLine($"Третье число = {result}");
 }

@@ -15,8 +15,14 @@ if (daynum < 7)
     {
         System.Console.WriteLine("Выходной день.");
     }
-    else System.Console.WriteLine("Будний день.");
+    else
+    {
+        System.Console.WriteLine("Будний день.");
+    }
 }
-else System.Console.WriteLine("Нет такого дня недели.");
+else
+{
+    System.Console.WriteLine("Нет такого дня недели.");
+}
 
 
