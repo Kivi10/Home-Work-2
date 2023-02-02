@@ -22,7 +22,7 @@ int number = InputInt("Введите трехзначное число");
 
 if (ValidateNumRank3(number))
 {
-    int midRank = (number % 100) / 10;
+    int midRank = number % 100 / 10;
 
     System.Console.WriteLine($"Вторая цифра числа {number} равна {midRank}");
 }
